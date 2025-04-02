@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Code_External_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>External identifier for the job code from an external system such as Rippling or Upwork</description>
+    <externalId>true</externalId>
+    <inlineHelpText>External identifier for the job code from an external system such as Rippling or Upwork</inlineHelpText>
+    <label>Job Code External ID</label>
+    <length>255</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Time_Cannot_Be_Before_Start_Time</fullName>
+    <active>true</active>
+    <description>The End Time Cannot Occur Before the Start Time</description>
+    <errorConditionFormula>End_Time__c &lt;  Start_Time__c</errorConditionFormula>
+    <errorDisplayField>End_Time__c</errorDisplayField>
+    <errorMessage>The End Time Cannot Occur Before the Start Date</errorMessage>
+</ValidationRule>

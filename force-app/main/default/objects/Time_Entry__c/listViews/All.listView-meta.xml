@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>External_Time_Entry_ID__c</columns>
+    <columns>Time_Entry_Type__c</columns>
+    <columns>Calculated_Duration__c</columns>
+    <columns>Start_Time__c</columns>
+    <columns>End_Time__c</columns>
+    <columns>Job_Code_Id_txt__c</columns>
+    <columns>Job_Code__c</columns>
+    <columns>Worker__c</columns>
+    <columns>Worker_Id_txt__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
